@@ -1,0 +1,26 @@
+Source: p0f
+Section: net
+Priority: extra
+Maintainer: Debian Security Tools Packaging Team <pkg-security-team@lists.alioth.debian.org>
+Uploaders: Pierre Chifflier <pollux@debian.org>,
+ Sophie Brun <sophie@freexian.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9),
+    libpcap0.8-dev
+Homepage: http://lcamtuf.coredump.cx/p0f3/
+Vcs-Git: https://anonscm.debian.org/git/pkg-security/p0f.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-security/p0f.git
+
+Package: p0f
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Passive OS fingerprinting tool
+ p0f performs passive OS detection based on SYN packets. Unlike nmap
+ and queso, p0f does recognition without sending any data.
+ Additionally, it is able to determine the distance to the remote
+ host, and can be used to determine the structure of a foreign or
+ local network. When running on the gateway of a network it is able
+ to gather huge amounts of data and provide useful statistics. On a
+ user-end computer it could be used as powerful IDS add-on. p0f
+ supports full tcpdump-style filtering expressions, and has an
+ extensible and detailed fingerprinting database.
