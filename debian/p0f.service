@@ -1,0 +1,10 @@
+[Unit]
+Description=Starts p0f as daemon
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/p0f -u www-data -s /var/run/p0f.sock -d -t 10,120
+
+[Install]
+WantedBy=multi-user.target

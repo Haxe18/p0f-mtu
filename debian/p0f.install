@@ -1,3 +1,4 @@
-p0f usr/sbin
-p0f-client usr/sbin
-p0f.fp etc/p0f
+p0f /usr/sbin
+p0f-client /usr/sbin
+p0f.fp /etc/p0f
+debian/p0f.service /lib/systemd/system
