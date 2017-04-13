@@ -1,3 +1,23 @@
+p0f (3.09b-1.1) UNRELEASED; urgency=medium
+
+  [ ValdikSS ]
+  * Export link_mtu value to the API
+  * Add iOS and Android browsers catch-all rules
+  * Add Mobile MSIE catch-all rule
+  * Match iOS as Mac OS X since we don't have TCP fingerprints for iOS yet
+  * Update VPN fingerprints
+  * Update Firefox and Chrome fingerprints
+  * More OpenVPN MTU fingerprints
+  * Add generic Chrome fingerprint
+  * Update Chrome fingerprint
+
+  [ Haxe18 ]
+  * Added MTU 1404 as IPv4 DS-Lite-Tunnel
+  * Add p0f-client
+  * Added p0f daemon systemd file (run as www-data)
+
+ -- Haxe18 <Haxe18>  Thu, 13 Apr 2017 22:02:21 +0200
+
 p0f (3.09b-1) unstable; urgency=medium
 
   [ Sophie Brun ]

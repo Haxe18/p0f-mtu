@@ -20,7 +20,7 @@
 /* Default location of p0f.fp: */
 
 #ifndef FP_FILE
-#  define FP_FILE           "p0f.fp"
+#  define FP_FILE           "/etc/p0f/p0f.fp"
 #endif /* !FP_FILE */
 
 /* Initial permissions on log files: */
