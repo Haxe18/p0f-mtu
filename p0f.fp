@@ -60,6 +60,9 @@ label = PPTP
 sig   = 1490
 sig   = 1460
 
+label = IPv4 DS-Lite-Tunnel
+sig   = 1404
+
 ; OpenVPN mssfix 1450 (default)
 
 label = OpenVPN UDP bs64 SHA1
