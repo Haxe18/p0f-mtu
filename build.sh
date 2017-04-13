@@ -314,7 +314,7 @@ rm -f "$TMP" "$TMP.log" "$TMP.c" || exit 1
 
 echo "[+] Okay, you seem to be good to go. Fingers crossed!"
 
-echo -n "[*] Compiling $PROGNAME... "
+echo "[*] Compiling $PROGNAME... "
 
 rm -f "$PROGNAME" || exit 1
 
@@ -334,6 +334,9 @@ if [ ! -x "$PROGNAME" ]; then
   exit 1
 
 fi
+
+echo -n "[*] Compiling all tools... "
+( cd tools && make ) &>/dev/null
 
 if [ -s "$TMP.log" ]; then
 
