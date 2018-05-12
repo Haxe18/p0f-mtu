@@ -86,6 +86,9 @@ sig   = 1391
 label = OpenVPN UDP bs128 SHA1 lzo
 sig   = 1392
 
+label = OpenVPN TCP bs128 AES256 lzo
+sig   = 1395
+
 label = OpenVPN TCP bs128 SHA1 lzo
 sig   = 1390
 
