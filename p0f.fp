@@ -77,17 +77,20 @@ sig   = 1408
 label = OpenVPN TCP bs64 SHA1 lzo
 sig   = 1406
 
+label = OpenVPN UDP bs128 AES256
+sig   = 1397
+
+label = OpenVPN TCP bs128 AES256 lzo
+sig   = 1395
+
 label = OpenVPN UDP bs128 SHA1
 sig   = 1393
-
-label = OpenVPN TCP bs128 SHA1
-sig   = 1391
 
 label = OpenVPN UDP bs128 SHA1 lzo
 sig   = 1392
 
-label = OpenVPN TCP bs128 AES256 lzo
-sig   = 1395
+label = OpenVPN TCP bs128 SHA1
+sig   = 1391
 
 label = OpenVPN TCP bs128 SHA1 lzo
 sig   = 1390
