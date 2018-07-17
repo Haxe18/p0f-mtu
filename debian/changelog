@@ -1,3 +1,11 @@
+p0f (3.09b-1.2) unstable; urgency=medium
+
+  [ Haxe18 ]
+  * Added OpenVPN MTU 1395
+  * Added OpenVPN MTU 1397
+
+ -- Haxe18 <Haxe18>  Tue, 17 Jul 2018 20:49:39 +0200
+
 p0f (3.09b-1.1) unstable; urgency=medium
 
   [ ValdikSS ]
