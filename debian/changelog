@@ -1,4 +1,4 @@
-p0f (3.09b-1.1) UNRELEASED; urgency=medium
+p0f (3.09b-1.1) unstable; urgency=medium
 
   [ ValdikSS ]
   * Export link_mtu value to the API
