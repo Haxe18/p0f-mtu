@@ -1,3 +1,12 @@
+p0f (3.09b-3) unstable; urgency=medium
+
+  [ Haxe18 ]
+  * Updated Repo with newest debian commits
+  * Added postinst and postinst to reload systemd
+  * New Release 3.09b-3 to be "newer" than debian version
+
+ -- Haxe18 <Haxe18>  Mon, 20 Jan 2020 21:55:43 +0100
+
 p0f (3.09b-1.2) unstable; urgency=medium
 
   [ Haxe18 ]
