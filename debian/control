@@ -1,14 +1,15 @@
 Source: p0f
 Section: net
-Priority: extra
-Maintainer: Debian Security Tools Packaging Team <pkg-security-team@lists.alioth.debian.org>
+Priority: optional
+Maintainer: Haxe18 <Haxe18@users.noreply.github.com>
 Uploaders: Pierre Chifflier <pollux@debian.org>,
  Sophie Brun <sophie@freexian.com>
-Standards-Version: 3.9.8
-Build-Depends: debhelper (>= 9),
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 11),
     libpcap0.8-dev
 Homepage: http://lcamtuf.coredump.cx/p0f3/
 Vcs-Git: https://github.com/Haxe18/p0f-mtu.git
+Vcs-Browser: https://github.com/Haxe18/p0f-mtu
 
 Package: p0f
 Architecture: any
