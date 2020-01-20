@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+if [ -d /run/systemd/system ]; then
+    systemctl daemon-reload
+    if [ $? -eq 0 ]; then
+        echo -e "\e[32msystemctl daemon-reload successful\e[0m"
+    else
+        echo -e "\e[31msystemctl daemon-reload failed :(\e[0m"
+    fi
+fi
